@@ -1,0 +1,225 @@
+body {
+  background-color: rgb(228, 166, 83);
+  height: 700px;
+}
+
+.awal {
+  margin: 100px;
+  position: relative;
+}
+
+aside {
+  width: 400px;
+  height: 620px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.kedua {
+  width: 370px;
+  height: 100px;
+  background-color: antiquewhite;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  margin-left: 800px;
+}
+
+.kedua {
+  display: flex;
+  align-items: center;
+  top: 100px;
+  border-radius: 20px;
+}
+
+.kedua > div {
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  margin: 3px;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.kedua > div > i {
+  font-size: 20px;
+}
+
+.kedua > div > p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.ketiga {
+  width: 930px;
+  height: 500px;
+  background-color: antiquewhite;
+  position: absolute;
+  z-index: 1;
+  top: 220px;
+  margin-left: 420px;
+  border-radius: 10px;
+}
+aside {
+  position: relative;
+  top: 100px;
+}
+aside > .photo {
+  width: 200px;
+  background-image: url(img/ian.jpg);
+  background-size: cover;
+  height: 200px;
+  background-color: aqua;
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: 108px;
+  border-radius: 10px;
+}
+.nama {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 108px;
+  left: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+.media {
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 148px;
+  left: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.media > div {
+  width: 65px;
+  height: 45px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.pribadi {
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  left: 40px;
+}
+.pribadi > div {
+  background-color: aquamarine;
+  width: 320px;
+  height: 85px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.item-pribadi {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.item-pribadi > div + div > p {
+  margin-left: 10px;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:hover {
+  color: antiquewhite;
+}
+
+.item-pribadi > .isi {
+  background-color: bisque;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.garis {
+  margin-left: 40px;
+  color: brown;
+  font-size: 30px;
+}
+
+.kata {
+  margin: 0px 100px 0px 0px;
+  text-align: justify;
+}
+.ahli {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.ahli > div {
+  width: 390px;
+  height: 170px;
+  background-color: rgb(199, 116, 116);
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+  margin: 0px 20px 0px 0px;
+}
+
+.ahlikhusu {
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.judul1 {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.ahlikhusu > .isi {
+  font-size: 40px;
+  position: static;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
