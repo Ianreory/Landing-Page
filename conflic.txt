@@ -1,1 +1,1 @@
-hello conflic 1
+hello conflic one
